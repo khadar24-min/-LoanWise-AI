@@ -37,6 +37,10 @@ def load_dataset():
 model = load_model()
 dataset = load_dataset()
 
+# Immersive 3D experience layer (existing ML pipeline remains unchanged)
+from loanwise_3d import render_3d_hero
+render_3d_hero(len(dataset))
+
 
 # =========================================================
 # SETTINGS
